@@ -1,4 +1,4 @@
-package com.example.moduleproject.config;
+package com.autoriacloneprojectspring.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

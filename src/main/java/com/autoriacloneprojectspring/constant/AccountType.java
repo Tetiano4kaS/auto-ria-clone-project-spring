@@ -1,6 +1,5 @@
-package com.example.moduleproject.constant;
+package com.autoriacloneprojectspring.constant;
 
 public enum AccountType {
-    BASIC,
-    PREMIUM
+    BASIC, PREMIUM
 }

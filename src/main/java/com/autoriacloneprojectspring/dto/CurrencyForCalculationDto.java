@@ -1,6 +1,6 @@
-package com.example.moduleproject.dto;
+package com.autoriacloneprojectspring.dto;
 
-import com.example.moduleproject.constant.Currency;
+import com.autoriacloneprojectspring.constant.Currency;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import lombok.Data;

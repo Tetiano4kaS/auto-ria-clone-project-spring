@@ -1,7 +1,7 @@
-package com.example.moduleproject.repository;
+package com.autoriacloneprojectspring.repository;
 
-import com.example.moduleproject.entity.Advertisement;
-import com.example.moduleproject.entity.User;
+import com.autoriacloneprojectspring.entity.Advertisement;
+import com.autoriacloneprojectspring.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

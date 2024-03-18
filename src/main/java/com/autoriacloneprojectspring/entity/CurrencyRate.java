@@ -1,4 +1,4 @@
-package com.example.moduleproject.entity;
+package com.autoriacloneprojectspring.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

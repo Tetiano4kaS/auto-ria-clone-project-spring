@@ -1,6 +1,18 @@
 version: "3.8"
 
 services:
+  app:
+    build:
+      context: .
+    ports:
+     - "8888:8080"
+    volumes:
+      - ./backend:/app
+    restart: on-failure
+    depends_on:
+      - db
+    command: >
+      sh -c "/wait-for-it.sh db:3306 -- java -jar app.jar"
   db:
     image: mysql:8
     environment:

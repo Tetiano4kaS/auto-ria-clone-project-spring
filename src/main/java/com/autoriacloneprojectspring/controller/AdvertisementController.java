@@ -1,8 +1,8 @@
-package com.example.moduleproject.controller;
+package com.autoriacloneprojectspring.controller;
 
-import com.example.moduleproject.dto.AdvertisementRequestDto;
-import com.example.moduleproject.entity.Advertisement;
-import com.example.moduleproject.services.AdvertisementService;
+import com.autoriacloneprojectspring.dto.AdvertisementRequestDto;
+import com.autoriacloneprojectspring.entity.Advertisement;
+import com.autoriacloneprojectspring.services.AdvertisementService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -34,7 +34,7 @@ public class AdvertisementController {
     @DeleteMapping("/{id}")
     @PreAuthorize("hasAnyAuthority('MANEGER','ADMIN')")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteAdvertisement(@PathVariable long id){
-         advertisementService.deleteByAdvertisementId(id);
+    public void deleteAdvertisement(@PathVariable long id) {
+        advertisementService.deleteByAdvertisementId(id);
     }
 }

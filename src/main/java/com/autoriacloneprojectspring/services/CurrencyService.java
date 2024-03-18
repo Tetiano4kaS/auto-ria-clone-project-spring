@@ -1,17 +1,17 @@
-package com.example.moduleproject.services;
+package com.autoriacloneprojectspring.services;
 
-import com.example.moduleproject.constant.Currency;
-import com.example.moduleproject.dto.AdvertisementRequestDto;
-import com.example.moduleproject.dto.CurrencyCalculatedDto;
-import com.example.moduleproject.dto.CurrencyForCalculationDto;
-import com.example.moduleproject.dto.CurrencyRateResponseDto;
-import com.example.moduleproject.entity.Advertisement;
-import com.example.moduleproject.entity.CalculatedCurrency;
-import com.example.moduleproject.entity.CurrencyRate;
-import com.example.moduleproject.mapper.CurrencyMapper;
-import com.example.moduleproject.repository.AdvertisementRepository;
-import com.example.moduleproject.repository.CalculatedCurrencyRepository;
-import com.example.moduleproject.repository.CurrencyRateRepository;
+import com.autoriacloneprojectspring.constant.Currency;
+import com.autoriacloneprojectspring.dto.AdvertisementRequestDto;
+import com.autoriacloneprojectspring.dto.CurrencyCalculatedDto;
+import com.autoriacloneprojectspring.dto.CurrencyForCalculationDto;
+import com.autoriacloneprojectspring.dto.CurrencyRateResponseDto;
+import com.autoriacloneprojectspring.entity.Advertisement;
+import com.autoriacloneprojectspring.entity.CalculatedCurrency;
+import com.autoriacloneprojectspring.entity.CurrencyRate;
+import com.autoriacloneprojectspring.mapper.CurrencyMapper;
+import com.autoriacloneprojectspring.repository.AdvertisementRepository;
+import com.autoriacloneprojectspring.repository.CalculatedCurrencyRepository;
+import com.autoriacloneprojectspring.repository.CurrencyRateRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -28,7 +28,6 @@ public class CurrencyService {
     private final AdvertisementRepository advertisementRepository;
     private final CalculatedCurrencyRepository calculatedCurrencyRepository;
     private final RestTemplate restTemplate;
-
 
     @Transactional
     public List<CurrencyRateResponseDto> getCurrencyRates() {

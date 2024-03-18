@@ -1,7 +1,7 @@
-package com.example.moduleproject.entity;
+package com.autoriacloneprojectspring.entity;
 
-import com.example.moduleproject.constant.AccountType;
-import com.example.moduleproject.constant.Role;
+import com.autoriacloneprojectspring.constant.AccountType;
+import com.autoriacloneprojectspring.constant.Role;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

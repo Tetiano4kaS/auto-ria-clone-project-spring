@@ -1,8 +1,5 @@
-package com.example.moduleproject.constant;
+package com.autoriacloneprojectspring.constant;
 
 public enum Role {
-    BAYER,
-    USER,
-    ADMIN,
-    MANAGER
+    BAYER, USER, ADMIN, MANAGER
 }

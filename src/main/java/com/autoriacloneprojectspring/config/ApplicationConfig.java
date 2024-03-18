@@ -1,6 +1,6 @@
-package com.example.moduleproject.config;
+package com.autoriacloneprojectspring.config;
 
-import com.example.moduleproject.repository.UserRepository;
+import com.autoriacloneprojectspring.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

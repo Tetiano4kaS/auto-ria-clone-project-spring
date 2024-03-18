@@ -1,11 +1,11 @@
-package com.example.moduleproject.entity;
+package com.autoriacloneprojectspring.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
 
 @Data
 @Entity
-@Table( name = "cars")
+@Table(name = "cars")
 public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,6 +1,6 @@
-package com.example.moduleproject.exceptions;
+package com.autoriacloneprojectspring.exceptions;
 
-import com.example.moduleproject.dto.ErrorResponseDto;
+import com.autoriacloneprojectspring.dto.ErrorResponseDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

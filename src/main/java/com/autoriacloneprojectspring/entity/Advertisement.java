@@ -1,6 +1,6 @@
-package com.example.moduleproject.entity;
+package com.autoriacloneprojectspring.entity;
 
-import com.example.moduleproject.constant.Currency;
+import com.autoriacloneprojectspring.constant.Currency;
 import jakarta.persistence.*;
 import lombok.Data;
 

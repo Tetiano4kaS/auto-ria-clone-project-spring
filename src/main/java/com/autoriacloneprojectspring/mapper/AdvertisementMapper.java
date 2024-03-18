@@ -1,12 +1,11 @@
-package com.example.moduleproject.mapper;
+package com.autoriacloneprojectspring.mapper;
 
-import com.example.moduleproject.constant.Currency;
-import com.example.moduleproject.dto.AdvertisementRequestDto;
-import com.example.moduleproject.dto.CurrencyCalculatedDto;
-import com.example.moduleproject.entity.Advertisement;
-import com.example.moduleproject.entity.CalculatedCurrency;
-import com.example.moduleproject.entity.Car;
-import com.example.moduleproject.entity.User;
+import com.autoriacloneprojectspring.constant.Currency;
+import com.autoriacloneprojectspring.dto.AdvertisementRequestDto;
+import com.autoriacloneprojectspring.entity.Advertisement;
+import com.autoriacloneprojectspring.entity.CalculatedCurrency;
+import com.autoriacloneprojectspring.entity.Car;
+import com.autoriacloneprojectspring.entity.User;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

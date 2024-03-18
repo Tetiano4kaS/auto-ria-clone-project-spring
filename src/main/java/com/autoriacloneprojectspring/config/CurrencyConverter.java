@@ -1,6 +1,6 @@
-package com.example.moduleproject.config;
+package com.autoriacloneprojectspring.config;
 
-import com.example.moduleproject.constant.Currency;
+import com.autoriacloneprojectspring.constant.Currency;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
 

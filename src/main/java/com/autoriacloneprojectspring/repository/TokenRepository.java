@@ -1,6 +1,6 @@
-package com.example.moduleproject.repository;
+package com.autoriacloneprojectspring.repository;
 
-import com.example.moduleproject.entity.Token;
+import com.autoriacloneprojectspring.entity.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -15,5 +15,4 @@ public interface TokenRepository extends JpaRepository<Token, Long> {
             where u.id= :id and t.expired=false 
             """)
     public List<Token> findAllValidTokensByUser(Long id);
-
 }

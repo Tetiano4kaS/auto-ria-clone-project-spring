@@ -1,4 +1,4 @@
-package com.example.moduleproject.auth;
+package com.autoriacloneprojectspring.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthenticationResponse {
-    private  String token;
+    private String token;
 }

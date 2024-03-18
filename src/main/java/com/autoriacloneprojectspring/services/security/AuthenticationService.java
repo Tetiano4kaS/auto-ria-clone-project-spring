@@ -1,15 +1,15 @@
-package com.example.moduleproject.services.security;
+package com.autoriacloneprojectspring.services.security;
 
-import com.example.moduleproject.auth.AuthenticationRequest;
-import com.example.moduleproject.auth.AuthenticationResponse;
-import com.example.moduleproject.auth.RegisterRequest;
-import com.example.moduleproject.constant.AccountType;
-import com.example.moduleproject.constant.Role;
-import com.example.moduleproject.entity.Token;
-import com.example.moduleproject.entity.User;
-import com.example.moduleproject.exceptions.EmailAlreadyExistException;
-import com.example.moduleproject.repository.TokenRepository;
-import com.example.moduleproject.repository.UserRepository;
+import com.autoriacloneprojectspring.auth.AuthenticationRequest;
+import com.autoriacloneprojectspring.auth.AuthenticationResponse;
+import com.autoriacloneprojectspring.auth.RegisterRequest;
+import com.autoriacloneprojectspring.constant.AccountType;
+import com.autoriacloneprojectspring.constant.Role;
+import com.autoriacloneprojectspring.entity.Token;
+import com.autoriacloneprojectspring.entity.User;
+import com.autoriacloneprojectspring.exceptions.EmailAlreadyExistException;
+import com.autoriacloneprojectspring.repository.TokenRepository;
+import com.autoriacloneprojectspring.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -73,11 +73,10 @@ public class AuthenticationService {
 
     private void expiredToken(User user) {
         List<Token> allValidTokensByUser = tokenRepository.findAllValidTokensByUser(user.getId());
-        if (allValidTokensByUser.isEmpty()){
+        if (allValidTokensByUser.isEmpty()) {
             return;
         }
         allValidTokensByUser.forEach(token -> token.setExpired(true));
         tokenRepository.saveAll(allValidTokensByUser);
     }
 }
-

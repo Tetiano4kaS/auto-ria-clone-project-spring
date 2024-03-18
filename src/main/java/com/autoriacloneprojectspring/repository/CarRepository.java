@@ -1,6 +1,6 @@
-package com.example.moduleproject.repository;
+package com.autoriacloneprojectspring.repository;
 
-import com.example.moduleproject.entity.Car;
+import com.autoriacloneprojectspring.entity.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

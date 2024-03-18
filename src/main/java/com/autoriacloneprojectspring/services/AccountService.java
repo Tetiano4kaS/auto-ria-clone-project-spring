@@ -1,9 +1,9 @@
-package com.example.moduleproject.services;
+package com.autoriacloneprojectspring.services;
 
-import com.example.moduleproject.constant.AccountType;
-import com.example.moduleproject.entity.User;
-import com.example.moduleproject.exceptions.UserNotFoundException;
-import com.example.moduleproject.repository.UserRepository;
+import com.autoriacloneprojectspring.constant.AccountType;
+import com.autoriacloneprojectspring.entity.User;
+import com.autoriacloneprojectspring.exceptions.UserNotFoundException;
+import com.autoriacloneprojectspring.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

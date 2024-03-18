@@ -1,4 +1,4 @@
-package com.example.moduleproject.constant;
+package com.autoriacloneprojectspring.constant;
 
 public enum Currency {
     UAH, USD, EUR

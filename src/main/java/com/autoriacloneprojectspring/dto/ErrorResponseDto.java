@@ -1,4 +1,4 @@
-package com.example.moduleproject.dto;
+package com.autoriacloneprojectspring.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

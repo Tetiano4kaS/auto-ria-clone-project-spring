@@ -1,9 +1,9 @@
-package com.example.moduleproject.controller;
+package com.autoriacloneprojectspring.controller;
 
-import com.example.moduleproject.auth.AuthenticationResponse;
-import com.example.moduleproject.auth.RegisterRequest;
-import com.example.moduleproject.constant.Role;
-import com.example.moduleproject.services.security.AuthenticationService;
+import com.autoriacloneprojectspring.auth.AuthenticationResponse;
+import com.autoriacloneprojectspring.auth.RegisterRequest;
+import com.autoriacloneprojectspring.constant.Role;
+import com.autoriacloneprojectspring.services.security.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

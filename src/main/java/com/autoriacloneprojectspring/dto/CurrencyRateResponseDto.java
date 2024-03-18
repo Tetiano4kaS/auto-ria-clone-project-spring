@@ -1,4 +1,4 @@
-package com.example.moduleproject.dto;
+package com.autoriacloneprojectspring.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.example.moduleproject.controller;
+package com.autoriacloneprojectspring.controller;
 
-import com.example.moduleproject.services.AccountService;
+import com.autoriacloneprojectspring.services.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

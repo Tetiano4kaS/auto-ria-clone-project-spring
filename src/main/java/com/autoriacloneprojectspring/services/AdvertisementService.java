@@ -1,23 +1,23 @@
-package com.example.moduleproject.services;
+package com.autoriacloneprojectspring.services;
 
-import com.example.moduleproject.constant.AccountType;
-import com.example.moduleproject.constant.Currency;
-import com.example.moduleproject.dto.AdvertisementRequestDto;
-import com.example.moduleproject.dto.CurrencyCalculatedDto;
-import com.example.moduleproject.dto.CurrencyForCalculationDto;
-import com.example.moduleproject.entity.Advertisement;
-import com.example.moduleproject.entity.CalculatedCurrency;
-import com.example.moduleproject.entity.Car;
-import com.example.moduleproject.entity.User;
-import com.example.moduleproject.exceptions.LimitAdvertisementBasicAccountException;
-import com.example.moduleproject.exceptions.UserNotFoundException;
-import com.example.moduleproject.mapper.AdvertisementMapper;
-import com.example.moduleproject.mapper.CarMapper;
-import com.example.moduleproject.mapper.CurrencyMapper;
-import com.example.moduleproject.repository.AdvertisementRepository;
-import com.example.moduleproject.repository.CalculatedCurrencyRepository;
-import com.example.moduleproject.repository.CarRepository;
-import com.example.moduleproject.repository.UserRepository;
+import com.autoriacloneprojectspring.constant.AccountType;
+import com.autoriacloneprojectspring.constant.Currency;
+import com.autoriacloneprojectspring.dto.AdvertisementRequestDto;
+import com.autoriacloneprojectspring.dto.CurrencyCalculatedDto;
+import com.autoriacloneprojectspring.dto.CurrencyForCalculationDto;
+import com.autoriacloneprojectspring.entity.Advertisement;
+import com.autoriacloneprojectspring.entity.CalculatedCurrency;
+import com.autoriacloneprojectspring.entity.Car;
+import com.autoriacloneprojectspring.entity.User;
+import com.autoriacloneprojectspring.exceptions.LimitAdvertisementBasicAccountException;
+import com.autoriacloneprojectspring.exceptions.UserNotFoundException;
+import com.autoriacloneprojectspring.mapper.AdvertisementMapper;
+import com.autoriacloneprojectspring.mapper.CarMapper;
+import com.autoriacloneprojectspring.mapper.CurrencyMapper;
+import com.autoriacloneprojectspring.repository.AdvertisementRepository;
+import com.autoriacloneprojectspring.repository.CalculatedCurrencyRepository;
+import com.autoriacloneprojectspring.repository.CarRepository;
+import com.autoriacloneprojectspring.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -31,7 +31,6 @@ public class AdvertisementService {
     private final AdvertisementRepository advertisementRepository;
     private final UserRepository userRepository;
     private final CarRepository carRepository;
-
     private final CurrencyService currencyService;
     private final CalculatedCurrencyRepository calculatedCurrencyRepository;
 

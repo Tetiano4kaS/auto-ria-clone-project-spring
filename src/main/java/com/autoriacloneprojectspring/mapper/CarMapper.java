@@ -1,7 +1,7 @@
-package com.example.moduleproject.mapper;
+package com.autoriacloneprojectspring.mapper;
 
-import com.example.moduleproject.dto.AdvertisementRequestDto;
-import com.example.moduleproject.entity.Car;
+import com.autoriacloneprojectspring.dto.AdvertisementRequestDto;
+import com.autoriacloneprojectspring.entity.Car;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

@@ -1,7 +1,7 @@
-package com.example.moduleproject.controller;
+package com.autoriacloneprojectspring.controller;
 
-import com.example.moduleproject.dto.CurrencyRateResponseDto;
-import com.example.moduleproject.services.CurrencyService;
+import com.autoriacloneprojectspring.dto.CurrencyRateResponseDto;
+import com.autoriacloneprojectspring.services.CurrencyService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.GetMapping;

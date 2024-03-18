@@ -1,4 +1,4 @@
-package com.example.moduleproject.exceptions;
+package com.autoriacloneprojectspring.exceptions;
 
 public class LimitAdvertisementBasicAccountException extends RuntimeException {
     public LimitAdvertisementBasicAccountException(String message) {

@@ -1,12 +1,12 @@
-package com.example.moduleproject.mapper;
+package com.autoriacloneprojectspring.mapper;
 
-import com.example.moduleproject.constant.Currency;
-import com.example.moduleproject.dto.AdvertisementRequestDto;
-import com.example.moduleproject.dto.CurrencyCalculatedDto;
-import com.example.moduleproject.dto.CurrencyForCalculationDto;
-import com.example.moduleproject.dto.CurrencyRateResponseDto;
-import com.example.moduleproject.entity.CalculatedCurrency;
-import com.example.moduleproject.entity.CurrencyRate;
+import com.autoriacloneprojectspring.constant.Currency;
+import com.autoriacloneprojectspring.dto.AdvertisementRequestDto;
+import com.autoriacloneprojectspring.dto.CurrencyCalculatedDto;
+import com.autoriacloneprojectspring.dto.CurrencyForCalculationDto;
+import com.autoriacloneprojectspring.dto.CurrencyRateResponseDto;
+import com.autoriacloneprojectspring.entity.CalculatedCurrency;
+import com.autoriacloneprojectspring.entity.CurrencyRate;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.AccessLevel;
